@@ -8,7 +8,13 @@ In this project we use stylegan to create audio reactive visuals for VJ. Given a
 ## Expermiments
 
 ### Hand Crafted Features
-<iframe width="420" height="315"
+<iframe width="256" height="256"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+<iframe width="256" height="256"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+<iframe width="256" height="256"
 src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
 
