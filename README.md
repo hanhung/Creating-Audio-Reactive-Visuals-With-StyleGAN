@@ -21,11 +21,14 @@ src="https://www.youtube.com/embed/wR-pnOy8R9k">
 src="https://www.youtube.com/embed/07A5MKOW7y4">
 </iframe>
 
+In the first video we have the synthesized video using features extracted using FFT and filtering then using random walk to navigate the latent space. In Fig. 2 we list our our filter settings and the stylgan mapping layers. We also do some ablation tests by only taking input from the low pass, band pass and high pass individually (last three videos respectively).
+
 | Filter Type   | Frequencies   | Sounds               | Styles (layers) | Effect           |
 | ------------- |:-------------:|:--------------------:|:---------------:|:----------------:|
 | Low Pass      | ~150 Hz       | Bass                 | 0~2             | Coarse Structure |
 | Band Pass     | 200~350 Hz    | Snare                | 3~5             | Mid Level        |
 | High Pass     | 500~5000 Hz   | Mid-High Frequencies | 6~13            | Fine Detail      |
+*Fig. 2: Filter settings and mapping to stylegan*
 
 ### Nsynth Extracted Features
 
