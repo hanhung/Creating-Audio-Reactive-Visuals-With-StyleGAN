@@ -16,6 +16,7 @@ In this project we use stylegan to create audio reactive visuals for VJ. Given a
 ## Resources
 
 Paper: Coming Soon
+
 Code: Coming Soon
 
 ### Markdown
