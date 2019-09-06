@@ -9,13 +9,13 @@ In this project we use stylegan to create audio reactive visuals for VJ. Given a
 
 ### Hand Crafted Features
 <iframe width="256" height="256"
-src="https://youtu.be/VvSlL5QFdhI">
+src="https://www.youtube.com/embed/VvSlL5QFdhI">
 </iframe>
 <iframe width="256" height="256"
-src="https://youtu.be/lVszLh0iUs4">
+src="https://www.youtube.com/embed/lVszLh0iUs4">
 </iframe>
 <iframe width="256" height="256"
-src="https://youtu.be/wR-pnOy8R9k">
+src="https://www.youtube.com/embed/wR-pnOy8R9k">
 </iframe>
 
 | Filter Type   | Frequencies   | Sounds               | Styles (layers) | Effect           |
