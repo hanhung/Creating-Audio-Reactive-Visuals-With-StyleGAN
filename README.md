@@ -33,7 +33,7 @@ src="https://www.youtube.com/embed/wR-pnOy8R9k">
 src="https://www.youtube.com/embed/07A5MKOW7y4">
 </iframe>
 
-Here we perform some ablation experiments by fixing the style vectors from two of the filters and varying only one. The videos are inputs from low pass, band pass and high pass respectively.
+Here we perform some ablation experiments by fixing the style vectors from two of the filters and varying only one. The videos are results for low pass, band pass and high pass respectively.
 
 ### 2-2.Nsynth Extracted Features
 
