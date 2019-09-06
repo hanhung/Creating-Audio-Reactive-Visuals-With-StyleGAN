@@ -3,7 +3,15 @@
 ![Image description](workflow.png)
 *Fig. 1: Overall workflow of our method*
 
-In this project we use stylegan to create audio reactive visual for VJ.
+In this project we use stylegan to create audio reactive visuals for VJ. Given an audio clip we first perform feature extraction using fft and filtering to separate different sounds such as bass and snare. Then for every time-step we calculate the magnitude of changes in these features and map them to movement in the latent space of stylegan. The latent vectors obtained after this step is joined by style mixing to create an image for every time-step. (See original [stylegan paper](https://arxiv.org/abs/1812.04948) for details on style mixing) Concatenating the images and we obtain a video clip that "dances" to the audio clip. The overall workflow is shown in Fig. 1.
+
+## Expermiments
+
+### Hand Crafted Features
+
+### Nsynth Extracted Features
+
+### Learned Walks
 
 ### Markdown
 
