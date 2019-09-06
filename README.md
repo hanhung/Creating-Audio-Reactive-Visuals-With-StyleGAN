@@ -13,6 +13,11 @@ In this project we use stylegan to create audio reactive visuals for VJ. Given a
 
 ### Learned Walks
 
+## Resources
+
+Paper: Coming Soon
+Code: Coming Soon
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
