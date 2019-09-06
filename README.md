@@ -28,6 +28,7 @@ In the first video we have the synthesized video using features extracted using 
 | Low Pass      | ~150 Hz       | Bass                 | 0~2             | Coarse Structure |
 | Band Pass     | 200~350 Hz    | Snare                | 3~5             | Mid Level        |
 | High Pass     | 500~5000 Hz   | Mid-High Frequencies | 6~13            | Fine Detail      |
+
 *Fig. 2: Filter settings and mapping to stylegan*
 
 ### Nsynth Extracted Features
