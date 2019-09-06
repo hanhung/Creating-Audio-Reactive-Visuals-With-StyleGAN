@@ -1,5 +1,7 @@
 ## Introduction
 
+![Image description](workflow.png)
+
 In this project we
 
 ### Markdown
