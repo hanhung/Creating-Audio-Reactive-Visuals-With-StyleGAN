@@ -1,8 +1,9 @@
 ## Introduction
 
 ![Image description](workflow.png)
+*Fig. 1: Overall workflow of our method*
 
-In this project we
+In this project we use stylegan to create audio reactive visual for VJ.
 
 ### Markdown
 
