@@ -10,7 +10,7 @@ In this project we use stylegan to create audio reactive visuals for VJ. Given a
 ### Hand Crafted Features
 
 | Filter Type   | Frequencies   | Sounds               | Styles (layers) |
-| ------------- |:-------------:|:--------------------:| ---------------:|
+| ------------- |:-------------:|:--------------------:|:---------------:|
 | Low Pass      | ~150 Hz       | Bass                 | 0~2             |
 | Band Pass     | 200~350 Hz    | Snare                | 3~5             |
 | High Pass     | 500~5000 Hz   | Mid-High Frequencies | 6~              |
