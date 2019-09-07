@@ -45,7 +45,7 @@ src="https://www.youtube.com/embed/kmUsZmb7GGM">
 
 Using Nsynth, a wavenet-style encoder we enode the audio clip and obtain 16 features for each time-step (the resulting encoding is visualized in Fig. 3). We discard two of the features (because there are only 14 styles) and map to stylegan in order of the channels with the largest magnitude changes.
 
-![Nsynth Encoding(nsynth_features.png)
+![Nsynth Encoding](nsynth_features.png)
 *Fig. 3: Filter settings and mapping to stylegan*
 
 
