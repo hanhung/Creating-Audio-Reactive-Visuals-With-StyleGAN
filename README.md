@@ -15,28 +15,28 @@ src="https://www.youtube.com/embed/D6UG09FOSqw">
 src="https://www.youtube.com/embed/Vxvgc8muBXw">
 </iframe>
 
-In this experiment we first perform FFT and filtering on the audio clip then calculate the changes in the features for every time-step and map to stylegan according to Fig. 2. Random walk is used to move in latent space by generating a random direction vector for every time-step and multiplying by the magnitude of the change. The max walk length limits the maximum distance the latent vector can move in one time-step.
+In this experiment we first perform FFT and filtering on the audio clip then calculate the changes in the features for every time-step and map to stylegan according to Fig. 2. Random walk is used to move in latent space by generating a random direction vector for every time-step and multiplying by the magnitude of the change. The max walk length limits the maximum distance the latent vector can move in one time-step. We vary the max walk length for the two videos accroding to Fig. 2.
 
-| Filter Type   | Frequencies   | Sounds               | Styles (layers) | Effect           | Max Length |
-| ------------- |:-------------:|:--------------------:|:---------------:|:----------------:|:----------:|
-| Low Pass      | ~150 Hz       | Bass                 | 0~2             | Coarse Structure | 4 vs 10    |
-| High Pass     | 500~5000 Hz   | Mid-High Frequencies | 3~5             | Mid Level        | 4 vs 10    |
-| Band Pass     | 200~350 Hz    | Snare                | 6~13            | Fine Detail      | 3 vs 3     |
+| Filter Type   | Frequencies   | Sounds               | Styles (layers) | Effect           | Max Walk Length |
+| ------------- |:-------------:|:--------------------:|:---------------:|:----------------:|:---------------:|
+| Low Pass      | ~150 Hz       | Bass                 | 0~2             | Coarse Structure | 4 vs 10         |
+| High Pass     | 500~5000 Hz   | Mid-High Frequencies | 3~5             | Mid Level        | 4 vs 10         |
+| Band Pass     | 200~350 Hz    | Snare                | 6~13            | Fine Detail      | 3 vs 3          |
 
 *Fig. 2: Filter settings and mapping to stylegan*
 
 #### Ablation
 <iframe width="256" height="256"
-src="https://www.youtube.com/embed/lVszLh0iUs4">
+src="https://www.youtube.com/embed/E1RpwpGlC5s">
 </iframe>
 <iframe width="256" height="256"
-src="https://www.youtube.com/embed/wR-pnOy8R9k">
+src="https://www.youtube.com/embed/gfZam2eK7_o">
 </iframe>
 <iframe width="256" height="256"
-src="https://www.youtube.com/embed/07A5MKOW7y4">
+src="https://www.youtube.com/embed/ASxiGrEZY4s">
 </iframe>
 
-Here we perform some ablation experiments by fixing the style vectors from two of the filters and varying only one. The videos are results for low pass, band pass and high pass respectively.
+We conduct some ablation tests by fixing the style vectors from two of the filters and varying one. The videos are results for low pass, high pass and band pass respectively. (The audio in each video is also filtered by the filters so that the correspondances can be seen more easily.
 
 ### 2-2.Nsynth Extracted Features
 
