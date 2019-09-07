@@ -50,6 +50,11 @@ Using Nsynth, a wavenet-style encoder we enode the audio clip and obtain 16 feat
 
 
 ### 2-3.Learned Walks
+<iframe width="256" height="256"
+src="https://www.youtube.com/embed/lBnNRk_vwfI">
+</iframe>
+
+In this experiment we learn a walk vector in the latent space of stylegan that corresponds to a specific effect (color) using techniques from a recent paper by [Jahanian, Ali et al](https://ali-design.github.io/gan_steerability/). We map low pass, band pass and high pass filter features to the alpha sliders for RGB channels of the image.
 
 ## 3.Resources
 
@@ -60,6 +65,9 @@ Code: Coming Soon
 ### Music
 
 Track: Rob Gasser - Hollow (feat. Veronica Bravo) [NCS Release]
+
 Music provided by NoCopyrightSounds.
+
 Watch: https://youtu.be/L14hxW2SN68
+
 Free Download / Stream: http://ncs.io/RGHollow
