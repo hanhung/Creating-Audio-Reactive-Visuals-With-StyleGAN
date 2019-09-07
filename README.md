@@ -3,22 +3,25 @@
 ![Image description](workflow.png)
 *Fig. 1: Overall workflow of our method*
 
-In this project we use stylegan to create audio reactive visuals for VJ. Given an audio clip we first perform feature extraction using FFT and filtering to separate different sounds such as bass and snare. Then for every time-step we calculate the magnitude of changes in these features and map them to movement in the latent space of stylegan. The latent vectors obtained after this step is joined by style mixing to create an image for every time-step. (See original stylegan [paper](https://arxiv.org/abs/1812.04948) for details on style mixing) Concatenating the images and we obtain a video clip that "dances" to the audio clip. The overall workflow is shown in Fig. 1.
+In this project we use stylegan to create audio reactive visuals for VJ. Given an audio clip we first perform feature extraction using FFT and filtering to separate different sounds such as bass and snare. Then for every time-step we calculate the magnitude of changes in these features and map them to movement in the latent space of stylegan (walking in latent space). The latent vectors obtained after this step is joined by style mixing to create an image for every time-step. (See original stylegan [paper](https://arxiv.org/abs/1812.04948) for details on style mixing) Concatenating the images and we obtain a video clip that "dances" to the audio clip. The overall workflow is shown in Fig. 1.
 
 ## 2.Expermiments
 
 ### 2-1.Hand Crafted Features
 <iframe width="256" height="256"
-src="https://www.youtube.com/embed/VvSlL5QFdhI">
+src="https://www.youtube.com/embed/D6UG09FOSqw">
+</iframe>
+<iframe width="256" height="256"
+src="https://www.youtube.com/embed/Vxvgc8muBXw">
 </iframe>
 
-For this experiment we perform FFT and filtering and map to stylgan according to Fig. 2. We use random walk to move in latent space (a random direction vector is sampled at every time-step).
+In this experiment we first perform FFT and filtering on the audio clip then calculate the changes in the features for every time-step and map to stylegan according to Fig. 2. Random walk is used to move in latent space by generating a random direction vector for every time-step and multiplying by the magnitude of the change. The max walk length limits the maximum distance the latent vector can move in one time-step.
 
-| Filter Type   | Frequencies   | Sounds               | Styles (layers) | Effect           |
-| ------------- |:-------------:|:--------------------:|:---------------:|:----------------:|
-| Low Pass      | ~150 Hz       | Bass                 | 0~2             | Coarse Structure |
-| Band Pass     | 200~350 Hz    | Snare                | 3~5             | Mid Level        |
-| High Pass     | 500~5000 Hz   | Mid-High Frequencies | 6~13            | Fine Detail      |
+| Filter Type   | Frequencies   | Sounds               | Styles (layers) | Effect           | Max Length |
+| ------------- |:-------------:|:--------------------:|:---------------:|:----------------:|:----------:|
+| Low Pass      | ~150 Hz       | Bass                 | 0~2             | Coarse Structure | 4 vs 10    |
+| High Pass     | 500~5000 Hz   | Mid-High Frequencies | 3~5             | Mid Level        | 4 vs 10    |
+| Band Pass     | 200~350 Hz    | Snare                | 6~13            | Fine Detail      | 3 vs 3     |
 
 *Fig. 2: Filter settings and mapping to stylegan*
 
