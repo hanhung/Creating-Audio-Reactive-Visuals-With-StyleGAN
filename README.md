@@ -1,6 +1,6 @@
 ## 1.Introduction
 
-![Image description](workflow.png)
+![Overall Workflow](workflow.png)
 *Fig. 1: Overall workflow of our method*
 
 In this project we use stylegan to create audio reactive visuals for VJ. Given an audio clip we first perform feature extraction using FFT and filtering to separate different sounds such as bass and snare. Then for every time-step we calculate the magnitude of changes in these features and map them to movement in the latent space of stylegan (walking in latent space). The latent vectors obtained after this step is joined by style mixing to create an image for every time-step. (See original stylegan [paper](https://arxiv.org/abs/1812.04948) for details on style mixing) Concatenating the images and we obtain a video clip that "dances" to the audio clip. The overall workflow is shown in Fig. 1.
@@ -39,6 +39,15 @@ src="https://www.youtube.com/embed/ASxiGrEZY4s">
 We conduct some ablation tests by fixing the style vectors from two of the filters and varying one. The videos are results for low pass, high pass and band pass respectively. (The audio in each video is also filtered by the filters so that the correspondances can be seen more easily.
 
 ### 2-2.Nsynth Extracted Features
+<iframe width="256" height="256"
+src="https://www.youtube.com/embed/kmUsZmb7GGM">
+</iframe>
+
+Using Nsynth, a wavenet-style encoder we enode the audio clip and obtain 16 features for each time-step (the resulting encoding is visualized in Fig. 3). We discard two of the features (because there are only 14 styles) and map to stylegan in order of the channels with the largest magnitude changes.
+
+![Nsynth Encoding(nsynth_features.png)
+*Fig. 3: Filter settings and mapping to stylegan*
+
 
 ### 2-3.Learned Walks
 
