@@ -1,8 +1,8 @@
-<iframe width="480" height="480"
+<iframe width="480" height="400"
 src="https://www.youtube.com/embed/xQwqnBRirwI
 ">
 </iframe>
-<iframe width="480" height="480"
+<iframe width="480" height="400"
 src="https://www.youtube.com/embed/fug9r-B9CmY
 ">
 </iframe>
