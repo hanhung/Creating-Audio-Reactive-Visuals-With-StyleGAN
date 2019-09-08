@@ -24,7 +24,7 @@ src="https://www.youtube.com/embed/D6UG09FOSqw">
 src="https://www.youtube.com/embed/Vxvgc8muBXw">
 </iframe>
 
-In this experiment we first perform FFT and filtering on the audio clip then calculate the changes in the features for every time-step and map to stylegan according to Fig. 2. Random walk is used to move in latent space by generating a random direction vector for every time-step and multiplying by the magnitude of the change. The max walk length limits the maximum distance the latent vector can move in one time-step. We vary the max walk length for the two videos accroding to Fig. 2.
+In this experiment we first perform FFT and filtering on the audio clip then calculate the changes in the features for every time-step and map to stylegan according to Fig. 2. Random walk is used to move in latent space by generating a random direction vector for every time-step and multiplying by the magnitude of the change. The max walk length limits the maximum distance the latent vector can move in one time-step. We vary the max walk length for the two videos according to Fig. 2.
 
 | Filter Type   | Frequencies   | Sounds               | Styles (layers) | Effect           | Max Walk Length |
 | ------------- |:-------------:|:--------------------:|:---------------:|:----------------:|:---------------:|
