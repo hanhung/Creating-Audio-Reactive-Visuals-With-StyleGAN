@@ -1,8 +1,8 @@
-<iframe width="512" height="512" align="middle"
+<iframe width="512" height="512"
 src="https://www.youtube.com/embed/xQwqnBRirwI
 ">
 </iframe>
-<iframe width="512" height="512" align="middle"
+<iframe width="512" height="512"
 src="https://www.youtube.com/embed/fug9r-B9CmY
 ">
 </iframe>
@@ -14,7 +14,7 @@ src="https://www.youtube.com/embed/fug9r-B9CmY
 
 In this project we use stylegan to create audio reactive visuals for VJ. Given an audio clip we first perform feature extraction using FFT and filtering to separate different sounds such as bass and snare. Then for every time-step we calculate the magnitude of changes in these features and map them to movement in the latent space of stylegan (walking in latent space). The latent vectors obtained after this step is joined by style mixing to create an image for every time-step. (See original stylegan [paper](https://arxiv.org/abs/1812.04948) for details on style mixing) Concatenating the images and we obtain a video clip that "dances" to the audio clip. The overall workflow is shown in Fig. 1.
 
-## 2.Expermiments
+## 2.Experiments
 
 ### 2-1.Hand Crafted Features
 <iframe width="256" height="256"
