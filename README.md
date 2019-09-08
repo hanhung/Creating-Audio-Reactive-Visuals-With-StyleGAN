@@ -71,9 +71,9 @@ Paper: Coming Soon
 
 Code: Coming Soon
 
-Painting Pretrained Model: https://www.reddit.com/r/MachineLearning/comments/bagnq6/p_stylegan_trained_on_paintings_512x512/
+Painting Pretrained Model: [https://www.reddit.com/r/MachineLearning/comments/bagnq6/p_stylegan_trained_on_paintings_512x512/]
 
-StyleGan Code and Pretrained Models:　https://github.com/NVlabs/stylegan
+StyleGan Code, LSUN bedroom and celeba pretrained models:　[https://github.com/NVlabs/stylegan]
 
 ### Music
 
