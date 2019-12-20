@@ -19,4 +19,10 @@ Download the StyleGAN repo using the sh file located in the resource folder.
 ```
 python gen_images.py --model_path $path_to_pretrained_model
 ```
-Run the script and specify the pretrained model of StyleGAN you downloaded to generate the image files for the song. Modify the [style.yaml](style.yaml) file to change the mixing of style loss.
+Run the script and specify the pretrained model of StyleGAN you downloaded to generate the image files for the song. Modify the [style.yaml](style.yaml) file to change the mixing of style layers.
+
+StyleGan Code, LSUN bedroom and celeba pretrained models:　
+https://github.com/NVlabs/stylegan
+
+Painting Pretrained Model:
+https://www.reddit.com/r/MachineLearning/comments/bagnq6/p_stylegan_trained_on_paintings_512x512/
