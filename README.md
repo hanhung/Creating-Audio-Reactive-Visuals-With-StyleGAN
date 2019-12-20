@@ -1,3 +1,7 @@
+**See videos at <https://hanhung.github.io/Creating-Audio-Reactive-Visuals-With-StyleGAN/>.**
+
+**See [GETTING_STARTED.md](GETTING_STARTED.md) for how to run code.**
+
 <iframe width="768" height="768"
 src="https://www.youtube.com/embed/xQwqnBRirwI
 ">
@@ -6,11 +10,6 @@ src="https://www.youtube.com/embed/xQwqnBRirwI
 src="https://www.youtube.com/embed/fug9r-B9CmY
 ">
 </iframe>
-
-
-**See videos at <https://hanhung.github.io/Creating-Audio-Reactive-Visuals-With-StyleGAN/>.**
-
-**See [GETTING_STARTED.md](GETTING_STARTED.md) for how to run code.**
 
 ## 1.Introduction
 
