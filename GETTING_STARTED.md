@@ -1,6 +1,6 @@
 ## 1.Introduction
 
-This is the repo for the paper [Stylizing Audio Reactive Visuals](https://neurips2019creativity.github.io/doc/Stylizing%20Audio%20Reactive%20Visuals.pdf). Some of the code is modified from the official [StyleGAN](https://github.com/NVlabs/stylegan) repo.
+This is the repo for the paper [Stylizing Audio Reactive Visuals](https://neurips2019creativity.github.io/doc/Stylizing%20Audio%20Reactive%20Visuals.pdf) at the workshop [NeurIPS Workshop on Machine Learning for Creativity and Design 3.0](https://neurips2019creativity.github.io/). Some of the code is modified from the official [StyleGAN](https://github.com/NVlabs/stylegan) repo.
 
 ## 2.Usage
 
