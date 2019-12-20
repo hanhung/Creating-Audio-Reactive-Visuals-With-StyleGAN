@@ -72,7 +72,7 @@ In this experiment we learn a walk vector in the latent space of stylegan that c
 
 ## 3.Resources
 
-Paper: https://neurips2019creativity.github.io/doc/Stylizing%20Audio%20Reactive%20Visuals.pdf
+Paper: [Stylizing Audio Reactive Visuals](https://neurips2019creativity.github.io/doc/Stylizing%20Audio%20Reactive%20Visuals.pdf)
 
 Code: https://github.com/hanhung/Creating-Audio-Reactive-Visuals-With-StyleGAN
 
