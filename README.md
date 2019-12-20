@@ -7,6 +7,9 @@ src="https://www.youtube.com/embed/fug9r-B9CmY
 ">
 </iframe>
 
+**See demo website at https://hanhung.github.io/Creating-Audio-Reactive-Visuals-With-StyleGAN/**
+**See [GETTING_STARTED.md](https://www.google.com) for how to run code.**
+
 ## 1.Introduction
 
 ![Overall Workflow](workflow.png)
@@ -74,7 +77,7 @@ Code: Coming Soon
 StyleGan Code, LSUN bedroom and celeba pretrained models:　
 https://github.com/NVlabs/stylegan
 
-Painting Pretrained Model: 
+Painting Pretrained Model:
 https://www.reddit.com/r/MachineLearning/comments/bagnq6/p_stylegan_trained_on_paintings_512x512/
 
 ### Music
