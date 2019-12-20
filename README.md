@@ -8,7 +8,7 @@ src="https://www.youtube.com/embed/fug9r-B9CmY
 </iframe>
 
 
-**See demo website at https://hanhung.github.io/Creating-Audio-Reactive-Visuals-With-StyleGAN/**
+**See demo website at [https://hanhung.github.io/Creating-Audio-Reactive-Visuals-With-StyleGAN/](https://hanhung.github.io/Creating-Audio-Reactive-Visuals-With-StyleGAN/)*
 
 **See [GETTING_STARTED.md](GETTING_STARTED.md) for how to run code.**
 
