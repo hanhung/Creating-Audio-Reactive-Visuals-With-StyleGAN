@@ -24,3 +24,9 @@ Run the script and specify the pretrained model of StyleGAN you downloaded to ge
 StyleGan Code, LSUN bedroom and celeba pretrained models: https://github.com/NVlabs/stylegan
 
 Painting Pretrained Model: https://www.reddit.com/r/MachineLearning/comments/bagnq6/p_stylegan_trained_on_paintings_512x512/
+
+### 2.3 Generating Video
+```
+python create_video.py --music $path_to_mp3
+```
+Run the create video script to merge the images and music file into the final video.
